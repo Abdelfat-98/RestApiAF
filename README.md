@@ -21,3 +21,4 @@ Users Rest Api for Air France
 3) To show the list of all created users you should this url http://@IP:Port/api/users/allusers
    You can use the Api documentation to see more details
    
+4) To run Unit test you can run the test class /src/test/java/rest/afproject/api/UsersControllerTests.java
