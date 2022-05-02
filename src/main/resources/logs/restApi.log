@@ -1,0 +1,157 @@
+2022-05-02 04:04:06.842  INFO 67568 --- [restartedMain] rest.afproject.api.RestApiApplication    : Starting RestApiApplication using Java 1.8.0_281 on MBPdeAbrrahmane.Home with PID 67568 (/Users/abderrahmanefattouhi/Desktop/AirFrance/RestApi/target/classes started by abderrahmanefattouhi in /Users/abderrahmanefattouhi/Desktop/AirFrance/RestApi)
+2022-05-02 04:04:06.842  INFO 67568 --- [restartedMain] rest.afproject.api.RestApiApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-05-02 04:04:06.997  INFO 67568 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-02 04:04:07.004  INFO 67568 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 1 JPA repository interfaces.
+2022-05-02 04:04:07.082  INFO 67568 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-05-02 04:04:07.083  INFO 67568 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-02 04:04:07.083  INFO 67568 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-02 04:04:07.092  INFO 67568 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-02 04:04:07.092  INFO 67568 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 248 ms
+2022-05-02 04:04:07.120  INFO 67568 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-02 04:04:07.123  INFO 67568 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2022-05-02 04:04:07.139  INFO 67568 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2022-05-02 04:04:07.139  INFO 67568 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-05-02 04:04:07.179  INFO 67568 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-02 04:04:07.179  INFO 67568 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-02 04:04:07.258  WARN 67568 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-02 04:04:07.438  WARN 67568 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-05-02 04:04:07.473  INFO 67568 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-02 04:04:07.484  INFO 67568 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-05-02 04:04:07.489  INFO 67568 --- [restartedMain] rest.afproject.api.RestApiApplication    : Started RestApiApplication in 0.678 seconds (JVM running for 28.081)
+2022-05-02 04:04:07.491  INFO 67568 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-05-02 04:04:13.323  INFO 67568 --- [Thread-13] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-02 04:04:13.324  INFO 67568 --- [Thread-13] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2022-05-02 04:04:13.330  INFO 67568 --- [Thread-13] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2022-05-02 04:04:13.495  INFO 67568 --- [restartedMain] rest.afproject.api.RestApiApplication    : Starting RestApiApplication using Java 1.8.0_281 on MBPdeAbrrahmane.Home with PID 67568 (/Users/abderrahmanefattouhi/Desktop/AirFrance/RestApi/target/classes started by abderrahmanefattouhi in /Users/abderrahmanefattouhi/Desktop/AirFrance/RestApi)
+2022-05-02 04:04:13.496  INFO 67568 --- [restartedMain] rest.afproject.api.RestApiApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-05-02 04:04:13.635  INFO 67568 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-02 04:04:13.640  INFO 67568 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 1 JPA repository interfaces.
+2022-05-02 04:04:13.712  INFO 67568 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-05-02 04:04:13.712  INFO 67568 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-02 04:04:13.713  INFO 67568 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-02 04:04:13.718  INFO 67568 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-02 04:04:13.719  INFO 67568 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 221 ms
+2022-05-02 04:04:13.745  INFO 67568 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-02 04:04:13.748  INFO 67568 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2022-05-02 04:04:13.764  INFO 67568 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2022-05-02 04:04:13.764  INFO 67568 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-05-02 04:04:13.799  INFO 67568 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-02 04:04:13.800  INFO 67568 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-02 04:04:13.877  WARN 67568 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-02 04:04:14.053  WARN 67568 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-05-02 04:04:14.088  INFO 67568 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-02 04:04:14.098  INFO 67568 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-05-02 04:04:14.104  INFO 67568 --- [restartedMain] rest.afproject.api.RestApiApplication    : Started RestApiApplication in 0.63 seconds (JVM running for 34.696)
+2022-05-02 04:04:14.105  INFO 67568 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-05-02 04:04:15.508  INFO 67568 --- [Thread-19] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-02 04:04:15.509  INFO 67568 --- [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2022-05-02 04:04:15.514  INFO 67568 --- [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2022-05-02 04:04:15.711  INFO 67568 --- [restartedMain] rest.afproject.api.RestApiApplication    : Starting RestApiApplication using Java 1.8.0_281 on MBPdeAbrrahmane.Home with PID 67568 (/Users/abderrahmanefattouhi/Desktop/AirFrance/RestApi/target/classes started by abderrahmanefattouhi in /Users/abderrahmanefattouhi/Desktop/AirFrance/RestApi)
+2022-05-02 04:04:15.711  INFO 67568 --- [restartedMain] rest.afproject.api.RestApiApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-05-02 04:04:15.841  INFO 67568 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-02 04:04:15.847  INFO 67568 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 1 JPA repository interfaces.
+2022-05-02 04:04:15.912  INFO 67568 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-05-02 04:04:15.913  INFO 67568 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-02 04:04:15.913  INFO 67568 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-02 04:04:15.917  INFO 67568 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-02 04:04:15.917  INFO 67568 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 204 ms
+2022-05-02 04:04:15.944  INFO 67568 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-02 04:04:15.947  INFO 67568 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2022-05-02 04:04:15.961  INFO 67568 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2022-05-02 04:04:15.961  INFO 67568 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-05-02 04:04:16.000  INFO 67568 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-02 04:04:16.000  INFO 67568 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-02 04:04:16.071  WARN 67568 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-02 04:04:16.230  WARN 67568 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-05-02 04:04:16.263  INFO 67568 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-02 04:04:16.274  INFO 67568 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-05-02 04:04:16.279  INFO 67568 --- [restartedMain] rest.afproject.api.RestApiApplication    : Started RestApiApplication in 0.587 seconds (JVM running for 36.872)
+2022-05-02 04:04:16.281  INFO 67568 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-05-02 04:04:17.687  INFO 67568 --- [Thread-25] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-02 04:04:17.688  INFO 67568 --- [Thread-25] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2022-05-02 04:04:17.693  INFO 67568 --- [Thread-25] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2022-05-02 04:04:17.882  INFO 67568 --- [restartedMain] rest.afproject.api.RestApiApplication    : Starting RestApiApplication using Java 1.8.0_281 on MBPdeAbrrahmane.Home with PID 67568 (/Users/abderrahmanefattouhi/Desktop/AirFrance/RestApi/target/classes started by abderrahmanefattouhi in /Users/abderrahmanefattouhi/Desktop/AirFrance/RestApi)
+2022-05-02 04:04:17.882  INFO 67568 --- [restartedMain] rest.afproject.api.RestApiApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-05-02 04:04:18.098  INFO 67568 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-02 04:04:18.105  INFO 67568 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 1 JPA repository interfaces.
+2022-05-02 04:04:18.176  INFO 67568 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-05-02 04:04:18.177  INFO 67568 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-02 04:04:18.177  INFO 67568 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-02 04:04:18.181  INFO 67568 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-02 04:04:18.182  INFO 67568 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 298 ms
+2022-05-02 04:04:18.209  INFO 67568 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-02 04:04:18.212  INFO 67568 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2022-05-02 04:04:18.226  INFO 67568 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2022-05-02 04:04:18.226  INFO 67568 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-05-02 04:04:18.260  INFO 67568 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-02 04:04:18.260  INFO 67568 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-02 04:04:18.330  WARN 67568 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-02 04:04:18.490  WARN 67568 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-05-02 04:04:18.519  INFO 67568 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-02 04:04:18.529  INFO 67568 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-05-02 04:04:18.535  INFO 67568 --- [restartedMain] rest.afproject.api.RestApiApplication    : Started RestApiApplication in 0.681 seconds (JVM running for 39.128)
+2022-05-02 04:04:18.537  INFO 67568 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-05-02 04:04:27.999  INFO 67568 --- [Thread-31] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-02 04:04:28.000  INFO 67568 --- [Thread-31] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2022-05-02 04:04:28.005  INFO 67568 --- [Thread-31] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2022-05-02 04:04:28.119  INFO 67568 --- [restartedMain] rest.afproject.api.RestApiApplication    : Starting RestApiApplication using Java 1.8.0_281 on MBPdeAbrrahmane.Home with PID 67568 (/Users/abderrahmanefattouhi/Desktop/AirFrance/RestApi/target/classes started by abderrahmanefattouhi in /Users/abderrahmanefattouhi/Desktop/AirFrance/RestApi)
+2022-05-02 04:04:28.120  INFO 67568 --- [restartedMain] rest.afproject.api.RestApiApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-05-02 04:04:28.249  INFO 67568 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-02 04:04:28.254  INFO 67568 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 1 JPA repository interfaces.
+2022-05-02 04:04:28.319  INFO 67568 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-05-02 04:04:28.320  INFO 67568 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-02 04:04:28.320  INFO 67568 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-02 04:04:28.326  INFO 67568 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-02 04:04:28.326  INFO 67568 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 204 ms
+2022-05-02 04:04:28.349  INFO 67568 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-02 04:04:28.352  INFO 67568 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2022-05-02 04:04:28.365  INFO 67568 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2022-05-02 04:04:28.366  INFO 67568 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-05-02 04:04:28.400  INFO 67568 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-02 04:04:28.400  INFO 67568 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-02 04:04:28.469  WARN 67568 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-02 04:04:28.599  WARN 67568 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-05-02 04:04:28.628  INFO 67568 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-02 04:04:28.638  INFO 67568 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-05-02 04:04:28.643  INFO 67568 --- [restartedMain] rest.afproject.api.RestApiApplication    : Started RestApiApplication in 0.554 seconds (JVM running for 49.235)
+2022-05-02 04:04:28.644  INFO 67568 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-05-02 04:04:43.931  INFO 67568 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-02 04:04:43.932  INFO 67568 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-02 04:04:43.933  INFO 67568 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-05-02 04:04:43.942  INFO 67568 --- [http-nio-8081-exec-1] rest.afproject.api.web.UsersController   : Create Merthod : Check that required fileds are not empty
+2022-05-02 04:04:47.186  INFO 67568 --- [Thread-37] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-02 04:04:47.186  INFO 67568 --- [Thread-37] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2022-05-02 04:04:47.188  INFO 67568 --- [Thread-37] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2022-05-02 04:04:47.350  INFO 67568 --- [restartedMain] rest.afproject.api.RestApiApplication    : Starting RestApiApplication using Java 1.8.0_281 on MBPdeAbrrahmane.Home with PID 67568 (/Users/abderrahmanefattouhi/Desktop/AirFrance/RestApi/target/classes started by abderrahmanefattouhi in /Users/abderrahmanefattouhi/Desktop/AirFrance/RestApi)
+2022-05-02 04:04:47.350  INFO 67568 --- [restartedMain] rest.afproject.api.RestApiApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-05-02 04:04:47.481  INFO 67568 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-02 04:04:47.486  INFO 67568 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 1 JPA repository interfaces.
+2022-05-02 04:04:47.555  INFO 67568 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-05-02 04:04:47.556  INFO 67568 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-02 04:04:47.556  INFO 67568 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-02 04:04:47.561  INFO 67568 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-02 04:04:47.561  INFO 67568 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 209 ms
+2022-05-02 04:04:47.587  INFO 67568 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-02 04:04:47.590  INFO 67568 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2022-05-02 04:04:47.604  INFO 67568 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2022-05-02 04:04:47.604  INFO 67568 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-05-02 04:04:47.636  INFO 67568 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-02 04:04:47.636  INFO 67568 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-02 04:04:47.705  WARN 67568 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-02 04:04:47.862  WARN 67568 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-05-02 04:04:47.908  INFO 67568 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-02 04:04:47.923  INFO 67568 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-05-02 04:04:47.930  INFO 67568 --- [restartedMain] rest.afproject.api.RestApiApplication    : Started RestApiApplication in 0.602 seconds (JVM running for 68.523)
+2022-05-02 04:04:47.931  INFO 67568 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-05-02 04:04:58.481  INFO 67568 --- [RMI TCP Connection(7)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-05-02 04:04:58.490  INFO 67568 --- [RMI TCP Connection(7)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-02 04:04:58.491  INFO 67568 --- [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
+2022-05-02 04:04:58.492  INFO 67568 --- [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
+2022-05-02 04:05:31.922  INFO 67762 --- [main] rest.afproject.api.UsersControllerTests  : Starting UsersControllerTests using Java 1.8.0_281 on MBPdeAbrrahmane.Home with PID 67762 (started by abderrahmanefattouhi in /Users/abderrahmanefattouhi/Desktop/AirFrance/RestApi)
+2022-05-02 04:05:31.924  INFO 67762 --- [main] rest.afproject.api.UsersControllerTests  : No active profile set, falling back to 1 default profile: "default"
+2022-05-02 04:05:33.930  WARN 67762 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-05-02 04:05:34.016  INFO 67762 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2022-05-02 04:05:34.016  INFO 67762 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2022-05-02 04:05:34.017  INFO 67762 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2022-05-02 04:05:34.051  INFO 67762 --- [main] rest.afproject.api.UsersControllerTests  : Started UsersControllerTests in 2.47 seconds (JVM running for 3.452)
+2022-05-02 04:05:34.242  INFO 67762 --- [main] rest.afproject.api.web.UsersController   : Create Merthod : User FARID Created succefuly
