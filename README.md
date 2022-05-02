@@ -2,7 +2,7 @@
 
 Users Rest Api for Air France
 
-+++++++++ To use this Api you should download and install lombock +++++++++
++++++++++ To use this Api you should download and install lombok +++++++++
 
 +++++++++ Yous should change database configuration into application.properties file +++++++++
 
